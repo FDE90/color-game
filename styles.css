@@ -1,0 +1,72 @@
+
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: grey;
+    margin: 1.66%;
+    border-radius: 5%;
+    transition: background 0.7s ;
+    
+}
+#container{
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: blue;
+}
+body{
+    width: 100%;
+    background-color: #232323;
+    font-family: 'Teko', sans-serif;
+}
+#titulo{
+    color:whitesmoke;
+    background-color: cadetblue;
+    text-align: center;
+}
+    
+#message{
+    text-transform: uppercase;
+	font-size: 25px;
+	display: inline-block;
+	width: 20%;
+    color: black;
+    
+}
+
+#botonera{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    position: relative;
+}
+
+button{
+    outline: none;
+	color: #2C8E99;
+    text-transform: uppercase;
+	font-size: 1.5em;
+	background-color: white;
+	height: 100%;
+	letter-spacing: 1px;
+    border: none;
+    background:none;
+    font-family: 'Teko', sans-serif;
+}
+
+button:hover{
+    background-color: teal;
+    color: white;
+}
+
+
+#colorDisplay{
+    font-size: 150%;
+}
+
+.seleccionado{
+    background-color: teal;
+    color: white;
+}
